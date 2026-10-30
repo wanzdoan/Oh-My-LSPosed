@@ -1,0 +1,4 @@
+<resources>
+    <string name="messenger_app_name">Better Messenger</string>
+    <string name="messenger_module_description">Canary overlay module for Messenger inbox context menus</string>
+</resources>

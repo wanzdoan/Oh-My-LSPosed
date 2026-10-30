@@ -1,0 +1,28 @@
+{
+  "apk": "dist\\OhMyLSPosed-1.3.1-debug.apk",
+  "entries": [
+    "com.betterzl.module.hook.ModernEntry",
+    "com.locket.gold.ModernEntry",
+    "com.golda.patchertiktok.ModuleMain",
+    "tn.loukious.facebookappadsremover.ModuleMain",
+    "com.aitiniu.orcapeek.hook.OrcaPeekModule",
+    "dev.alastorkaneki.chromescript.ModuleMain"
+  ],
+  "scope": [
+    "com.zing.zalo",
+    "com.locket.Locket",
+    "com.zhiliaoapp.musically",
+    "com.ss.android.ugc.trill",
+    "com.facebook.katana",
+    "com.facebook.orca",
+    "com.android.chrome"
+  ],
+  "defined_classes": 9354,
+  "native_libraries": [
+    "lib/arm64-v8a/libdexkit.so",
+    "lib/armeabi-v7a/libdexkit.so",
+    "lib/x86/libdexkit.so",
+    "lib/x86_64/libdexkit.so"
+  ],
+  "runtime_xposed_api_classes": 0
+}

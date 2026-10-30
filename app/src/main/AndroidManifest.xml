@@ -1,0 +1,40 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <queries>
+        <package android:name="com.zing.zalo" />
+        <package android:name="com.locket.Locket" />
+        <package android:name="com.zhiliaoapp.musically" />
+        <package android:name="com.ss.android.ugc.trill" />
+        <package android:name="com.facebook.katana" />
+        <package android:name="com.facebook.orca" />
+        <package android:name="com.android.chrome" />
+        <package android:name="org.lsposed.manager" />
+    </queries>
+    <application android:name="dev.ohmy.core.ModuleApplication"
+        android:allowBackup="false" android:supportsRtl="true"
+        android:icon="@drawable/ic_ohmy" android:label="OhMyLSPosed"
+        android:description="@string/ohmy_description" android:theme="@style/Theme.OhMy">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.INFO" />
+                <category android:name="de.robv.android.xposed.category.MODULE_SETTINGS" />
+            </intent-filter>
+        </activity>
+        <activity-alias android:name=".LauncherAlias" android:targetActivity=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity android:name="tn.loukious.facebookappadsremover.ui.MainActivity"
+            android:theme="@style/facebook_Theme.FBAR" android:exported="false" />
+        <activity android:name=".ZaloSettingsActivity" android:exported="false" />
+        <activity android:name="com.golda.patchertiktok.OpenInTikTok"
+            android:theme="@android:style/Theme.NoDisplay" android:exported="false"
+            android:noHistory="true" android:excludeFromRecents="true" />
+        <receiver android:name="tn.loukious.facebookappadsremover.ui.SessionResultReceiver" android:exported="true">
+            <intent-filter><action android:name="tn.loukious.facebookappadsremover.action.SESSION_RESULT" /></intent-filter>
+        </receiver>
+    </application>
+</manifest>

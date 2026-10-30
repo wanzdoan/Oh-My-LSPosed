@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chrome_module_description">Userscript manager injected into stock Chrome with modern LibXposed API 102.</string>
+</resources>
+

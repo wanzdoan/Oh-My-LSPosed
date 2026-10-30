@@ -1,0 +1,20 @@
+<resources>
+    <string name="ohmy_description">Zalo · Locket · TikTok · Facebook · Messenger · Chrome</string>
+    <string name="ohmy_framework">%1$s · API %2$d</string>
+    <string name="ohmy_api_required">Cần LSPosed hỗ trợ API 102</string>
+    <string name="ohmy_read_failed">Không đọc được cài đặt LSPosed</string>
+    <string name="ohmy_disconnected">Chưa kết nối LSPosed</string>
+    <string name="ohmy_count">%1$d/%2$d đã bật</string>
+    <style name="Theme.OhMy" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+        <item name="colorPrimary">#2563EB</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#18201D</item>
+    </style>
+</resources>

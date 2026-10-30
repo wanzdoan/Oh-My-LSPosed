@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="24dp">
+
+        <TextView android:id="@+id/facebook_back_to_modules"
+            android:layout_width="match_parent" android:layout_height="48dp"
+            android:gravity="center_vertical" android:text="‹  Module"
+            android:textColor="#2563EB" android:textSize="15sp"
+            android:background="?android:attr/selectableItemBackground" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/facebook_module_name"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#1B2230"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#717A89"
+            android:text="@string/facebook_settings_apply_hint"
+            android:textSize="13sp" />
+
+        <!-- Toggle rows are built programmatically from ui.Toggles. -->
+        <LinearLayout
+            android:id="@+id/facebook_toggles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+</ScrollView>

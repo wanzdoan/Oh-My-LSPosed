@@ -1,0 +1,8 @@
+<lint>
+    <!-- The only poster is StreakNotice, injected into TikTok. It checks the
+         host's runtime notification grant. Lint reports the host requirement
+         against this APK's manifest even though it never posts as this app. -->
+    <issue id="NotificationPermission">
+        <ignore path="src/main/AndroidManifest.xml" />
+    </issue>
+</lint>

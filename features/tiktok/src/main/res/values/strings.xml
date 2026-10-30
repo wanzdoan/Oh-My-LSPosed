@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tiktok_app_name" translatable="false">TiktokPatchXposed</string>
+    <string name="tiktok_module_description">No ads, downloads in any quality, auto-scroll everywhere, hide elements, accent color and AMOLED theme, comment translation, region and invisible mode. Settings: TikTok → Settings and privacy.</string>
+</resources>

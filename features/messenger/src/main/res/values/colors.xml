@@ -1,0 +1,6 @@
+<resources>
+    <color name="messenger_peek_background">#101119</color>
+    <color name="messenger_peek_surface">#191B27</color>
+    <color name="messenger_peek_primary">#7C5CFF</color>
+    <color name="messenger_peek_text">#F4F2FA</color>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="zalo_app_name">BetterZalo</string>
+    <string name="zalo_xposed_description">A modern Kotlin LSPosed module powered by YukiHookAPI</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="locket_app_name">Locket Gold Unlock</string>
+    <string name="locket_module_description">Unlock Gold feature of Locket</string>
+</resources>

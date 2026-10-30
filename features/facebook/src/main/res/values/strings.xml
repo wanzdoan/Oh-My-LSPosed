@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_name">Facebook App Ads Remover</string>
+    <string name="facebook_module_name">Facebook</string>
+    <string name="facebook_module_description">Modern Xposed module for Facebook: ad-free feed, media download, account tools</string>
+    <string name="facebook_module_status">Module loaded. Enable it in LSPosed for com.facebook.katana, then restart Facebook.</string>
+    <string name="facebook_settings_apply_hint">Khởi động lại Facebook để áp dụng thay đổi.</string>
+    <string name="facebook_service_waiting">Chưa kết nối LSPosed</string>
+    <string name="facebook_service_ready">Đã kết nối LSPosed</string>
+    <string name="facebook_debug_hint">Hook points are resolved at runtime and logged inside the Facebook process. View the report with:\n\nadb logcat -s FacebookAppAdsRemover FBAR.Discovery\n\nEach target logs FOUND / NOT_UNIQUE / NOT_FOUND with the resolved method descriptor.</string>
+</resources>
